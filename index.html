@@ -1,0 +1,95 @@
+<html>
+    <head>Practice</head>
+    <body>
+        
+        <h2 id="demo1"></h2>
+        <script>
+        
+        
+        // for(let [person1, value] of Object.entries(person)){
+        //     text=person1+":"+value+"<br";
+        // }
+        // function person(first, last, age){
+        //     this.firstname=first;
+        //     this.lastname=last;
+        //     this.age=age;
+        // }
+
+        // const me=new person("Kim", "IlUng", 22);
+        // text=me.firstname+me.lastname;
+       
+        // const number1=[5,2,9,2,7,4,8];
+        // const number2=[4,5,3,9,1,6,2];
+        // let find=number.findLast(myfunction)
+        // function myfunction(value){
+        //     return value>6;
+        // }
+        
+            // number.sort(function(a,b){return a-b});
+            // let value=Math.min.apply(null,number)
+        // const myarr=Array.from(number, (x)=>x*2);
+        // [a,b,c,...rest]=number1;
+        // const A=new Set(['a', 'b', 'c']);
+        // const B=new Set(['a', 'c', 'e']);
+        // const C= A.isDisjointFrom(B);
+        // let text="";
+        // for (x of C){
+        //     text+=x+"<br>";
+        // }
+        // const A=["a1", "a2", "a3"];
+        // const B=["b1", "b2", "b3"];
+        // // let C=A.copyWithin(2,1);
+        // let text="Hello World";
+        // const pattern=/[a-z]/g;
+        // // let n=text.match(pattern);
+        // let n=parseInt("5.53");
+
+        
+        // let{firstname,lastname,age}=person;
+        // class Car{
+        //     constructor(name, year){
+        //         this.name="Jon";
+        //         this.year=year;
+        //     }
+        //     present(){
+        //         return this.name;
+        //     }
+        // };
+        // class tool extends Car{
+        //     constructor(a,b){
+        //         super(name);
+        //         this.b=b;
+        //     }
+        //     show(){
+        //         return this.present()+this.b;
+        //     }
+        // }
+        // const myCar1=new tool("Ford", 2014);
+        // const myCar2=new tool("Audo", 2015);
+        const person={
+            firstname:"Kim",
+            lastname:"IlUng",
+            age: 20,
+        };
+        Object.defineProperty(person, "lastname",{
+            get(){return "secret";}
+        });
+        let name=person.lastname;
+
+        document.getElementById("demo1").innerHTML =name;
+        
+        
+        
+        // function myfunction( value){
+        //     return value>40;
+        // }
+        // text1=person1.firstname;
+
+        // document.getElementById("demo").innerHTML=person[2];
+        
+        
+        </script>
+        
+            
+    </body>
+</html>
